@@ -9,6 +9,7 @@ https://mcstacker.net
 shadow_axe: 16314516
 netherite_sword: 16314515
 shadow_bow: 16314510 - 11 - 12 - 13 
+shadow_arrow: 16314514
 shadow_chestplate: 16314517
 shadow_helmet: 16314518
 shadow_leggings 16314519
