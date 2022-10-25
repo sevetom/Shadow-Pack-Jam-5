@@ -1,0 +1,14 @@
+{
+    "__comment": "Crafted shadow helmet",
+"criteria": {
+     "recipe": {
+         "trigger": "minecraft:recipe_unlocked",
+         "conditions": {
+                "recipe": "minecraft:shadow_helmet_recipe"
+         }
+     }
+ },
+ "rewards": {
+         "function": "shadows:give_shadow_helmet"
+ }
+}

@@ -1,0 +1,4 @@
+recipe take @s minecraft:shadow_shield_recipe
+advancement revoke @s only shadows:shadow_shield_advancement
+clear @s minecraft:bedrock
+execute run give @s shield{display:{Name:'{"text":"Shadow Shield","color":"dark_purple","bold":true,"strikethrough":true}',Lore:['{"text":"This shield give you the protection of the shadows","color":"dark_gray","strikethrough":true}']},Enchantments:[{id:"minecraft:unbreaking",lvl:8s},{id:"minecraft:vanishing_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:3,Operation:0,UUID:[I;65744870,-99137457,-1978167103,2122194469],Slot:"offhand"}],BlockEntityTag:{Base:15,Patterns:[{Pattern:"cbo",Color:10},{Pattern:"cr",Color:10},{Pattern:"mc",Color:10},{Pattern:"flo",Color:15},{Pattern:"bts",Color:15},{Pattern:"tts",Color:15}]}} 1

@@ -1,0 +1,14 @@
+{
+    "__comment": "Crafted shadow bow",
+"criteria": {
+     "recipe": {
+         "trigger": "minecraft:recipe_unlocked",
+         "conditions": {
+                "recipe": "minecraft:shadow_bow_recipe"
+         }
+     }
+ },
+ "rewards": {
+         "function": "shadows:give_shadow_bow"
+ }
+}

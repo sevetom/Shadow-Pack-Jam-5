@@ -1,0 +1,14 @@
+{
+    "__comment": "Crafted shadow leggings",
+"criteria": {
+     "recipe": {
+         "trigger": "minecraft:recipe_unlocked",
+         "conditions": {
+                "recipe": "minecraft:shadow_leggings_recipe"
+         }
+     }
+ },
+ "rewards": {
+         "function": "shadows:give_shadow_leggings"
+ }
+}

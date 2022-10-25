@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #S",
+        "# S",
+        " #S"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:glowstone_dust"
+        },
+        "S": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:bedrock",
+        "count": 1
+    }
+}

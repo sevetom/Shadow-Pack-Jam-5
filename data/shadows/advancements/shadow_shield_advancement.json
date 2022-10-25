@@ -1,0 +1,14 @@
+{
+    "__comment": "Crafted shadow shield",
+"criteria": {
+     "recipe": {
+         "trigger": "minecraft:recipe_unlocked",
+         "conditions": {
+                "recipe": "minecraft:shadow_shield_recipe"
+         }
+     }
+ },
+ "rewards": {
+         "function": "shadows:give_shadow_shield"
+ }
+}

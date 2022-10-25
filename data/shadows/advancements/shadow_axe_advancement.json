@@ -1,0 +1,14 @@
+{
+    "__comment": "Crafted shadow axe",
+"criteria": {
+     "recipe": {
+         "trigger": "minecraft:recipe_unlocked",
+         "conditions": {
+                "recipe": "minecraft:shadow_axe_recipe"
+         }
+     }
+ },
+ "rewards": {
+         "function": "shadows:give_shadow_axe"
+ }
+}

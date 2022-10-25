@@ -1,0 +1,14 @@
+{
+    "__comment": "Crafted shadow chestplate",
+"criteria": {
+     "recipe": {
+         "trigger": "minecraft:recipe_unlocked",
+         "conditions": {
+                "recipe": "minecraft:shadow_chestplate_recipe"
+         }
+     }
+ },
+ "rewards": {
+         "function": "shadows:give_shadow_chestplate"
+ }
+}

@@ -1,0 +1,14 @@
+{
+    "__comment": "Crafted shadow boots",
+"criteria": {
+     "recipe": {
+         "trigger": "minecraft:recipe_unlocked",
+         "conditions": {
+                "recipe": "minecraft:shadow_boots_recipe"
+         }
+     }
+ },
+ "rewards": {
+         "function": "shadows:give_shadow_boots"
+ }
+}
