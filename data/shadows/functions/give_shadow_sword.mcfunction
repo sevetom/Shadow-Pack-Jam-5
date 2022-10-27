@@ -1,4 +1,4 @@
 recipe take @s minecraft:shadow_sword_recipe
-advancement revoke @s only shadows:shadow_sword_advancement
+advancement revoke @s only shadows:crafting/shadow_sword_advancement
 clear @s minecraft:reinforced_deepslate
 give @s minecraft:netherite_sword{display:{Name:'{"text":"Shadow Sword","color":"dark_purple","bold":true,"strikethrough":true}',Lore:['{"text":"This sword will cut trough your enemies but at a serious cost","color":"dark_gray","strikethrough":true}']},CustomModelData:16314515,Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:3,Operation:0,UUID:[I;-785457489,861553535,-1994383858,1705052171],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:0.5,Operation:0,UUID:[I;1435263830,1783252211,-1277028180,1414125245],Slot:"mainhand"}]} 1
