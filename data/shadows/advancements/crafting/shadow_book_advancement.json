@@ -1,0 +1,14 @@
+{
+   "__comment": "Crafted shadow book",
+   "criteria": {
+       "Loaded shadow pack": {
+           "trigger": "minecraft:recipe_unlocked",
+           "conditions": {
+               "recipe": "shadow_book_recipe"
+           }
+       }
+    },
+    "rewards": {
+        "function": "shadows:give_shadow_book"
+    }
+}

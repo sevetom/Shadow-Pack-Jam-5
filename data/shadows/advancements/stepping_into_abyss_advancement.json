@@ -1,0 +1,31 @@
+{
+   "__comment": "Crafted shadow book",
+   "display": {
+       "title": {
+           "text": "Stepping into the abyss",
+           "color": "dark_purple",
+           "bold": true,
+           "underlined": true
+       },
+        "description": {
+            "text": "Try putting together some coal and a book",
+            "color": "dark_gray",
+            "strikethrough": true
+        },
+        "icon": {
+            "item": "minecraft:black_concrete"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:shadow_book_recipe"
+            }
+        }
+    }
+}

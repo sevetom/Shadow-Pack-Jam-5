@@ -1,4 +1,4 @@
 recipe take @s minecraft:shadow_axe_recipe
 advancement revoke @s only shadows:shadow_axe_advancement
-clear @s minecraft:bedrock
+clear @s minecraft:reinforced_deepslate
 execute run give @s netherite_axe{display:{Name:'{"text":"Shadow Axe","color":"dark_purple","bold":true,"strikethrough":true}',Lore:['{"text":"This axe packs a punch but also sorrounds you in shadows","color":"dark_gray","strikethrough":true}']},CustomModelData:16314516,Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:5,Operation:0,UUID:[I;1138324350,-1739177068,-1404119937,1148223572],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:0.2,Operation:0,UUID:[I;1620811397,-1108326175,-1244325643,894300817],Slot:"mainhand"}]} 1
