@@ -1,0 +1,2 @@
+kill @e[type=item,nbt={Item:{id:"minecraft:glowstone_dust",tag:{CustomModelData:16314521},Count:1b}}]
+execute run give @p glowstone_dust{display:{Name:'{"text":"Shadow Gem","color":"dark_purple","bold":true,"strikethrough":true}',Lore:['{"text":"This gem was forged in the shadows","color":"dark_gray","bold":true,"strikethrough":true}']},CustomModelData:16314521,Enchantments:[{}]} 1

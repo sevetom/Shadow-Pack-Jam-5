@@ -1,28 +1,29 @@
 {
     "display": {
         "title": {
-            "text": "Stepping into the abyss",
-            "color": "black",
+            "text": "You are now part of it",
+            "color": "dark_blue",
             "bold": true,
             "strikethrough": true
         },
         "description": {
-            "text": "You summoned the Fear of Darkness",
+            "text": "You faced your fears",
             "color": "dark_gray",
             "italic": true
         },
         "icon": {
-            "item": "minecraft:black_concrete"
+            "item": "minecraft:glowstone_dust",
+            "nbt": "{CustomModelData:16314521}"
         },
-        "frame": "challenge",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     "criteria": {
-        "summoned boss": {
+        "killed boss": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "shadows:loaded_pack_advancement"
+    "parent": "shadows:stepping_into_abyss_advancement"
 }

@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Shadow Pack",
+            "color": "dark_purple",
+            "bold": true,
+            "strikethrough": true,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "Thank you for using tom_eveS' datapack",
+            "color": "dark_gray",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:tom_eveS}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/shadow.png"
+    },
+    "criteria": {
+        "Loaded shadow pack": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "shadows:give/give_shadow_book"
+    }
+}
