@@ -5,4 +5,5 @@ execute as @a[nbt={Inventory:[{Slot:102b,id:"minecraft:chainmail_chestplate", ta
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:chainmail_helmet", tag:{CustomModelData:16314518}}]}] run effect give @s invisibility 1 0 true
 execute as @a[nbt={Inventory:[{Slot:101b,id:"minecraft:chainmail_leggings", tag:{CustomModelData:16314519}}]}] run effect give @s speed 1 1 true
 execute as @a[nbt={Inventory:[{Slot:100b,id:"minecraft:chainmail_boots", tag:{CustomModelData:16314520}}]}] run effect give @s absorption 1 2 true
-execute as @e[type=item,nbt={Item:{id:"minecraft:sculk",Count:1b}}] at @s run execute as @e[type=item,nbt={Item:{id:"minecraft:ender_eye",Count:1b}},limit=1,sort=nearest,distance=0..1] at @s run function shadows:boss_fight
+execute as @e[type=item,nbt={Item:{id:"minecraft:sculk",Count:1b}}] at @s run execute as @e[type=item,nbt={Item:{id:"minecraft:ender_eye",Count:1b}},limit=1,sort=nearest,distance=0..1] at @s run function shadows:boss/load_boss_fight
+execute if score $global bool matches 1 run function shadows:boss/boss_healthbar

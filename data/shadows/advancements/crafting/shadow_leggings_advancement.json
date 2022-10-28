@@ -9,6 +9,6 @@
      }
  },
  "rewards": {
-         "function": "shadows:give_shadow_leggings"
+         "function": "shadows:give/give_shadow_leggings"
  }
 }

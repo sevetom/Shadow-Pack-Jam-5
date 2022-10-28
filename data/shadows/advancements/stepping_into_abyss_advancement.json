@@ -15,7 +15,7 @@
         "icon": {
             "item": "minecraft:black_concrete"
         },
-        "frame": "challenge",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
