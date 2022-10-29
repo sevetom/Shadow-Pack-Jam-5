@@ -15,7 +15,7 @@
             "item": "minecraft:glowstone_dust",
             "nbt": "{CustomModelData:16314521}"
         },
-        "frame": "goal",
+        "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": true

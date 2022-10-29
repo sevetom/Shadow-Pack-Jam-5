@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Get yourself started",
+            "color": "dark_blue",
+            "bold": true,
+            "strikethrough": true
+        },
+        "description": {
+            "text": "Try putting a book and some coal together",
+            "color": "dark_gray",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:written_book",
+            "nbt": "{CustomModelData:16314522}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "killed boss": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+               "recipe": "shadow_book_recipe"
+            }
+        }
+    },
+    "parent": "shadows:loaded_pack_advancement"
+}

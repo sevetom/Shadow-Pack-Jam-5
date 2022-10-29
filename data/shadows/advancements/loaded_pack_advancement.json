@@ -26,8 +26,5 @@
         "Loaded shadow pack": {
             "trigger": "minecraft:impossible"
         }
-    },
-    "rewards": {
-        "function": "shadows:give/give_shadow_book"
     }
 }
